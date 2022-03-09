@@ -30,7 +30,7 @@ OR
 
 * Clone this repository using
 ```sh
-git clone https://github.com/amit-y11/the_ocr_bot
+git clone https://github.com/PrakashRakhala/the_ocr_bot
 ```
 * Enter the directory and install all the requirements using
 ```sh
