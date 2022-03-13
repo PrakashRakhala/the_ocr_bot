@@ -43,7 +43,7 @@ pip3 install -r requirements.txt
 ```sh
 API_KEY = "Your Api key from https://ocr.space/ocrapi"
 BOT_TOKEN = "Your Bot Token"
-AUTH_CHANNEL = "Username or ID of channel. Without subscribing this channel users cannot use bot"
+AUTH_CHANNEL = ' -10012345678' \
         
 ```
 
