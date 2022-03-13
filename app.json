@@ -17,6 +17,16 @@
         "API_KEY":{
             "description":"Api key from https://ocr.space/ocrapi",
             "required":"True"
+        }   
+        "AUTH_CHANNEL": {
+
+            "description": "Username or ID of channel. Without subscribing this channel users cannot use bot.",
+
+            "value": "",
+
+            "required": "false"
+
+        },
         }
     }
 
