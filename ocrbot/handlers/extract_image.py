@@ -14,7 +14,7 @@ def extract_image(update:Update,context:CallbackContext):
     file_path= newFile.file_path
 
     keyboard = [[InlineKeyboardButton("English ", callback_data='eng'), InlineKeyboardButton("Russian", callback_data='rus'),InlineKeyboardButton("Czech", callback_data='cze')],
-                [InlineKeyboardButton("Hindi ", callback_data='hin'), InlineKeyboardButton("Indian", callback_data='ind'),InlineKeyboardButton("Bharat", callback_data='bha')],
+                [InlineKeyboardButton("Hindi ", callback_data='hin'), InlineKeyboardButton("Hindi", callback_data='hin'),InlineKeyboardButton("India", callback_data='ind')],
                 [InlineKeyboardButton("Chinese simplified", callback_data='chs'), InlineKeyboardButton("Chinese Traditional", callback_data='cht')],[InlineKeyboardButton("Japanese", callback_data='jpn')] ,
                 [InlineKeyboardButton("Arabic", callback_data='ara'),InlineKeyboardButton("Afrikans", callback_data='AFR'), InlineKeyboardButton("German", callback_data='gre')],
                 [InlineKeyboardButton("Italian", callback_data='ita'),InlineKeyboardButton("Indonesian", callback_data='eng'),InlineKeyboardButton("French", callback_data='fre')],
